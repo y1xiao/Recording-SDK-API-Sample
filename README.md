@@ -1,7 +1,7 @@
 # 录制 API Sample 简介
 API Samples是基于agora sdk api完成的一个命令行工具，目标是为了对齐老版本（官网版本）的API，方便使用老版本SDK的用户升级。
 
-# 准备功能
+# 准备工作
 确保已经获取了对应的工程版本agora sdk
 
 # 快速集成 Recording SDK
