@@ -15,7 +15,7 @@ libagora-ffmpeg.so
 libagora_rtc_sdk.so
 libagora_soundtouch.so
 
-2.运行build_linux.sh命令（运行成功后应该可以看到build_linux/bin/x86_64/recorder_local可执行文件）
+2.到demo/agora_sdk_demo目录下，运行build_linux.sh命令（如果运行成功，应该可以在看到当前目录下有build_linux/bin/x86_64/recorder_local可执行文件）
 
 # 开始录制
 ./recorder_local --appId {你的 App ID} --channel {频道名} --uid {Uid} --channelProfile {0 通信模式，1 直播模式} --appliteDir 
