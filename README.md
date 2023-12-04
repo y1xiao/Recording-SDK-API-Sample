@@ -5,9 +5,17 @@ API Samples是基于agora sdk api完成的一个命令行工具，目标是为�
 确保已经获取了对应的工程版本agora sdk
 
 # 快速集成 Recording SDK
-1.将agora sdk置于libs 文件夹下
+1.将agora sdk置于sdk 文件夹下
+sdk目录下应该有以下6个文件
 
-2.运行make命令（运行成功后应该可以看到recorder_local可执行文件）
+high_level_api文件夹
+low_level_api文件夹
+libagora-fdkaac.so
+libagora-ffmpeg.so
+libagora_rtc_sdk.so
+libagora_soundtouch.so
+
+2.运行build_linux.sh命令（运行成功后应该可以看到build_linux/bin/x86_64/recorder_local可执行文件）
 
 # 开始录制
 ./recorder_local --appId {你的 App ID} --channel {频道名} --uid {Uid} --channelProfile {0 通信模式，1 直播模式} --appliteDir 
