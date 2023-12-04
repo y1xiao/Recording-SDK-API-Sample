@@ -6,7 +6,7 @@ API Samples是基于agora sdk api完成的一个命令行工具，目标是为�
 
 # 快速集成 Recording SDK
 1.将agora sdk置于sdk 文件夹下
-sdk目录下应该有以下6个文件
+sdk目录下应该有以下6个文件：
 
 high_level_api文件夹
 low_level_api文件夹
